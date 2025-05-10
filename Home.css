@@ -1,0 +1,36 @@
+body{
+    background-color:rgb(238, 255, 212);
+}
+
+.title{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    padding-bottom: 20px;
+    margin:auto;
+}
+
+
+.button{
+    background-color: black;
+    border:1px solid darkgrey;
+    color:white;
+    padding: 15px 20px;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    margin:auto;
+    display: flex;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bottombar{
+    position:fixed;
+    bottom:0;
+    color:black;
+    overflow:hidden;
+    width:100%;
+}
